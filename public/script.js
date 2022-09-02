@@ -8,7 +8,8 @@ async function getData() {
     for(item of val) {
         const name = document.createElement('div');
         const score = document.createElement('div');
-        score.setAttribute("style", "margin-bottom: 20px");
+        name.setAttribute("class", "name");
+        score.setAttribute("class", "score");
         name.textContent = `Name: ${item.Name}`;
         score.textContent = `Braincells: ${item.Score}`;
 
