@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const scores = require('./score.js');
 require('dotenv');
 
-const port = process.env.PORT //|| 8080;
+const port = process.env.PORT || 8080;
 const username = 'mydb'
 const password = 'test123'
 const cluster = 'Clustor0';
