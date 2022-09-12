@@ -89,7 +89,7 @@ app.get('/scores', function(req, res) {
         else {
           //console.log(nameCheck);
           //console.log(foundItem.length);
-          console.log(`name's taken`);
+          console.log(`running on port: ${port}`);
           res.json(foundItem);
   
         }
