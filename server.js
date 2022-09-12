@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const scores = require('./score.js');
 require('dotenv');
 
-const port = process.env.PORT || 8080;
+const port = 8080;//process.env.PORT || 8080;
 const username = 'mydb'
 const password = 'test123'
 const cluster = 'Clustor0';
@@ -89,7 +89,7 @@ app.get('/scores', function(req, res) {
         else {
           //console.log(nameCheck);
           //console.log(foundItem.length);
-          console.log(`running on port: ${port}`);
+          //console.log(`running on port: ${port}`);
           res.json(foundItem);
   
         }
